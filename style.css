@@ -31,9 +31,13 @@ h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-right: 30px;
 }
+#againButton{
+    padding: 30px 30px;
+    background-color: gold;
+    margin: 15px 15px;
+}
 #ROCK, #PAPER, #SCISSORS{
     padding: 30px 30px;
-    border: none;
     background-color: gold;
     margin: 30px 30px;
 }
