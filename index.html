@@ -4,10 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>RPSAE</title>
+    <script type="text/javascript" src="script.js" defer></script>
 </head>
 <body>
+    <div id="header">
+        <h1>ROCK PAPER SCISSORS</h1>
+    </div>
+    <div id="gameDiv">
+        <div id="score">
+            <h2>YOU:</h2>
+            <h2 id="playerScore">0</h2>
+            <h2>COMPUTER:</h2>
+            <h2 id="computerScore">0</h2>
+
+        </div>
+        <div id="choices">
+            <button id="ROCK">rock</button>
+            <button id="PAPER">paper</button>
+            <button id="SCISSORS">scissors</button>
+        </div>
+        <div id="messageBox">
+            <h2 id="choiceMessage"></h2>
+            <h2 id="winMessage"></h2>
+        </div>
+    </div>
     
 </body>
 </html>

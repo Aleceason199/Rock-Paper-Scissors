@@ -1,0 +1,39 @@
+body{
+    background-color: bisque;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 48px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#choices{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#score{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+#messageBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-right: 30px;
+}
+#ROCK, #PAPER, #SCISSORS{
+    padding: 30px 30px;
+    border: none;
+    background-color: gold;
+    margin: 30px 30px;
+}
